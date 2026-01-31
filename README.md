@@ -21,7 +21,6 @@ This project helps businesses understand customer value, identify high-value loy
   - Classic named segments (Champions, Loyal, At Risk, Hibernating, Lost, etc.)
   - Optional quantile-based or k-means clustering
 - Visualizations: bar charts, heatmaps, scatter plots, box plots
-- Interactive Streamlit dashboard
 
 ## Project Structure
 rfm-analysis/
@@ -45,4 +44,5 @@ seaborn>=0.12
 plotly>=5.14
 scikit-learn>=1.3      # optional (if using k-means)
 openpyxl               # if reading .xlsx
+
 
